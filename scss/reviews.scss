@@ -1,0 +1,28 @@
+.reviews {
+  .body {
+    min-height: 900px;
+    background-color: #8F8C61;
+    .container {
+      margin: 0 auto;
+      width: 1280px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .image {
+        margin-right: 40px;
+        height: 300px;
+        width: 300px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .text {
+        width: 950px;
+        font-size: 30px;
+      }
+    }
+  }
+}

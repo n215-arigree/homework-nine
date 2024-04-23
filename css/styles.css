@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 nav {
   height: 50px;
-  background-color: #8C656E;
+  background-color: #5D3B1C;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -22,19 +22,18 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #2E0E10;
+  color: white;
   font-size: 20px;
 }
 
 .home .hero {
   width: 100%;
-  height: 300px;
+  height: 500px;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/header.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/AdobeStock_381143721.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: lightgoldenrodyellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +43,7 @@ nav a {
   text-align: center;
   width: 100%;
   height: 700px;
-  background-color: lightgoldenrodyellow;
+  background-color: #8F8C61;
 }
 .home .body h2 {
   padding-top: 30px;
@@ -57,59 +56,32 @@ nav a {
   justify-content: space-evenly;
 }
 .home .body .images .imageBox {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 350px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.products .hero {
-  width: 100%;
-  height: 300px;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/header.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: lightgoldenrodyellow;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-}
 .products .body {
-  background-color: lightgoldenrodyellow;
+  background-color: #8F8C61;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 .products .body .productBox {
-  width: 300px;
-  height: 300px;
+  height: 500px;
+  width: 350px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 60px;
 }
 
-.about .hero {
-  width: 100%;
-  height: 300px;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/header.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: lightgoldenrodyellow;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-}
 .about .body {
-  background-color: lightgoldenrodyellow;
+  min-height: 900px;
+  background-color: #8F8C61;
 }
 .about .body .container {
   margin: 0 auto;
@@ -133,27 +105,30 @@ nav a {
   font-size: 30px;
 }
 
-.contact .hero {
-  width: 100%;
+.reviews .body {
+  min-height: 900px;
+  background-color: #8F8C61;
+}
+.reviews .body .container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.reviews .body .container .image {
+  margin-right: 40px;
   height: 300px;
-  text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/header.jpeg);
-  background-position: center;
+  width: 300px;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: lightgoldenrodyellow;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
 }
-.contact .body {
-  text-align: center;
-  padding-top: 40px;
-  font-size: 20px;
-  width: 100%;
-  height: 700px;
-  background-color: lightgoldenrodyellow;
+.reviews .body .container .text {
+  width: 950px;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
